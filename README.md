@@ -36,4 +36,10 @@ Ubah sesuai dengan konfigurasi backend yang digunakan.
 ✅ **Lihat dan Cetak Barcode SKU**  
 ✅ **Ekspor Data Produk ke CSV**  
 
+## Sceenshot
 
+![Screenshot](./public/image1.png)
+![Screenshot](./public/image2.png)
+![Screenshot](./public/image3.png)
+![Screenshot](./public/image4.png)
+![Screenshot](./public/image5.png)
