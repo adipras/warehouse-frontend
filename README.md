@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# Simple Warehouse Management System - Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Ini adalah proyek frontend dari **Simple Warehouse Management System** menggunakan **Nuxt.js** dan **Fomantic-UI**.
 
-## Setup
+## 🛠️ Instalasi dan Menjalankan Proyek
 
-Make sure to install dependencies:
+### 1. Clone Repository
+```sh
+git clone https://github.com/adipras/warehouse-frontend.git
+cd <repository-folder>
+```
 
-```bash
-# npm
+### 2. Install Dependencies
+```sh
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+### 3. Menjalankan Proyek
+```sh
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+Aplikasi akan berjalan di `http://localhost:3000/` secara default.
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+## ⚙️ Konfigurasi Environment
+Buat file `.env` di root proyek dan tambahkan:
+```sh
+NUXT_PUBLIC_API_BASE=http://localhost:8080/api
 ```
+Ubah sesuai dengan konfigurasi backend yang digunakan.
 
-Locally preview production build:
+## 📌 Fitur Utama
+✅ **Autentikasi** (Login & Logout dengan JWT)  
+✅ **CRUD Produk** (Tambah, Edit, Hapus Produk)  
+✅ **Manajemen Stok** (Tambah/Kurangi stok langsung dari daftar produk)  
+✅ **Status Stok Otomatis** (Berdasarkan jumlah stok)  
+✅ **Lihat dan Cetak Barcode SKU**  
+✅ **Ekspor Data Produk ke CSV**  
 
-```bash
-# npm
-npm run preview
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

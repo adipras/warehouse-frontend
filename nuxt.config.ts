@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   css: ['fomantic-ui-css/semantic.min.css'],
   runtimeConfig: {
     public: {
-      apiBase: 'http://localhost:8080/api'
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || 'http://localhost:8080/api'
     }
   },
   compatibilityDate: '2024-11-01',
